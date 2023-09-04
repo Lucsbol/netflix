@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#root {
+  background-color: black;
+  font-family: "Roboto", bold, sans-serif;
+  padding-left: 60px;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  margin-right: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.carousel-image:-webkit-scrollbar {
+  display: none;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+  margin-left: -15px;
+}
+
+h2 {
+  color: white;
+}
